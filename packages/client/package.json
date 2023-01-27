@@ -1,0 +1,38 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.23.0",
+    "@trpc/client": "^10.9.0",
+    "@trpc/react-query": "^10.9.0",
+    "@trpc/server": "^10.9.0",
+    "ahooks": "^3.7.4",
+    "clsx": "^1.2.1",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^3.0.1",
+    "autoprefixer": "^10.4.13",
+    "eslint-config-custom": "*",
+    "lan-app-2-server": "*",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "tsconfig": "*",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-tsconfig-paths": "^4.0.5"
+  }
+}
